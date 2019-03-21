@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  font-family: Helvetica;
+  background-color: #333;
+  overflow-x: hidden;
+}
+
+nav {
+  color: #ddd;
+}
+
+nav h4 {
+  text-align: center;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+nav li {
+  border-bottom: solid 1px #999;
+}
+
+nav a {
+  color: #ddd;
+  width: 10em;
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  box-sizing: border-box;
+  background-color: #333;
+  cursor: pointer;
+  transition: background 0.3s ease-out;
+}
+
+nav a:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+nav a.active {
+  background-color: #000;
+  color: #fff;
+  border-right: solid 1em #00b7b7;
+}
+
+img {
+  float: left;
+  margin: 0 2em 1em 0;
+  max-width: 100%;
+}
+
+main {
+  background-color: #c4c4c4;
+  padding: 2em;
+  width: 100vw;
+  box-sizing: border-box;
+  min-height: 100vh;
+}
+
+#toggleLabel {
+  font-size: 2em;
+  font-weight: 900;
+}
+
+#toggleMenu {
+  display: none;
+}
+
+.footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #fff;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  opacity: 0.8;
+  border-top: 4px solid #00b7b7;
+  height: auto;
+}
+
+#footer-img {
+  width: auto;
+  height: auto;
+}
+    
+#validatie img {
+  height: 2em;
+  width: auto;
+  border: 0;
+  margin: 0.3em;
+}
+
+.foto {
+  height: 300px;
+  width: 500px;
+  float: left;
+  border-radius: 15px;
+  box-shadow: 5px 5px 30px #000;
+}
+
+.foto:hover {
+  transform: scale(1.01);
+  transition-timing-function: ease-in-out;
+  transition: 0.4s;
+  box-shadow: 10px 10px 60px #000;
+}
+
+.content {
+  display: block;
+  margin: 0 auto;
+}
